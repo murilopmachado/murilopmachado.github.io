@@ -1,14 +1,7 @@
 @import "../../data/styles.css";
 
-.homepage-logo-container {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
-}
-
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 40px;
 }
 
 .homepage-first-area {
@@ -21,24 +14,64 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	flex: 1;
+	padding-right: 40px;
 }
 
 .homepage-title {
-	width: 85% !important;
+	width: 100% !important;
+	margin-top: 0 !important;
+	margin-bottom: 40px;
 }
 
-.homepage-subtitle {
-	width: 85% !important;
+.homepage-subtitle-typewriter {
+	font-size: 28px;
+	color: var(--secondary-color);
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+
+.homepage-description-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px 0;
+	width: 85%;
+}
+
+.homepage-description-list li {
+	position: relative;
+	padding-left: 16px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--secondary-color);
+	border-left: 2px solid rgba(234, 78, 0, 0.4);
+	padding: 4px 0 4px 14px;
+}
+
+.homepage-highlight {
+	display: inline-block;
+	background: rgba(234, 78, 0, 0.1);
+	border-left: 3px solid rgba(234, 78, 0, 0.5);
+	padding: 15px 20px;
+	border-radius: 0 8px 8px 0;
+	margin: 20px 0;
+	font-style: italic;
+	font-size: 17px;
+	color: var(--primary-color);
+	width: 85%;
+	line-height: 1.8;
 }
 
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
+	flex-shrink: 0;
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 320px;
+	height: auto;
 }
 
 .homepage-image-wrapper {
@@ -98,6 +131,7 @@
 		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
+		padding-right: 0;
 		order: 2;
 	}
 
@@ -107,10 +141,13 @@
 		order: 2;
 	}
 
-	.homepage-subtitle {
-		width: 100% !important;
+	.homepage-subtitle-typewriter {
+		width: 100%;
 		margin-top: 10px;
-		order: 3;
+	}
+
+	.homepage-description-list {
+		width: 100%;
 	}
 
 	.homepage-first-area-right-side {
@@ -119,9 +156,11 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
+		padding-top: 20px;
 		padding-bottom: 50px;
-		margin-left: 10px;
+		margin-left: 0;
+		width: 100%;
+		max-width: 320px;
 		order: 1;
 	}
 
@@ -139,7 +178,15 @@
 
 	.homepage-works {
 		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.homepage-container {
+		padding-top: 25px;
+	}
+
+	.homepage-image-container {
+		padding-top: 0px;
 	}
 }

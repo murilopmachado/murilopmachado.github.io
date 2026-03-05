@@ -38,6 +38,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 15px;
 }
 
 .project-badge {
@@ -72,7 +73,7 @@
 }
 
 .project-title {
-	font-family: var(--secondary-font);
+	font-family: var(--primary-font);
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
@@ -110,6 +111,6 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: auto;
 	}
 }

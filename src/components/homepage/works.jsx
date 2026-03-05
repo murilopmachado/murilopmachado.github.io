@@ -108,32 +108,34 @@ const CATEGORY_COLORS = {
 
 const Works = () => {
 	return (
-		<div className="works">
+		<section className="works" aria-labelledby="skills-heading">
+			<h3 id="skills-heading" className="sr-only" style={{ position: "absolute", width: "1px", height: "1px", padding: 0, margin: "-1px", overflow: "hidden", clip: "rect(0, 0, 0, 0)", border: 0 }}>Skills and Tools Experience</h3>
 			<Card
 				icon={faLayerGroup}
 				title="Skills & Tools"
 				body={
-					<div className="skills-cloud">
+					<ul className="skills-cloud" aria-label="Professional Skills and Tools">
 						{SKILLS.map((skill, i) => {
 							const colors = CATEGORY_COLORS[skill.category];
 							return (
-								<span
+								<li
 									key={i}
 									className="skill-tag"
 									style={{
 										background: colors.bg,
 										border: `1px solid ${colors.border}`,
 										color: colors.text,
+										listStyle: "none"
 									}}
 								>
 									{skill.label}
-								</span>
+								</li>
 							);
 						})}
-					</div>
+					</ul>
 				}
 			/>
-		</div>
+		</section>
 	);
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const INFO = {
 	main: {
-		title: "Murilo Machado — MLOps | Platform Engineer | DevSecOps",
+		title: "Murilo Machado — AI Engineer | MLOps Architect | Security Specialist | QA Specialist | DevSecOps | Platform Engineer",
 		name: "Murilo Machado",
 		email: "murilo.paula.machado@gmail.com",
 		logo: "murilo_avatar.png",
@@ -14,17 +14,17 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "MLOps, Platform Engineer & DevSecOps, building secure AI infrastructure on-premise.",
-		description:
-			"With 15+ years of IT experience, my career has evolved from Software Development, QA, and Pentesting to scaling my own physical IT training school into a successful consultancy. Today I architect secure on-premise GPU clusters (DGX), deploy LLM hosting solutions (vLLM, Open WebUI), and build open-source synthetic data pipelines, leveraging my deep foundation in cloud-native infrastructure and secure SDLC to deliver production-ready AI environments. Recently, I secured a FULL WBSO grant from the Netherlands Enterprise Agency (RVO) for 3,000 R&D hours in AI.",
-	},
-
-	about: {
-		title: "Hey, I'm Murilo Machado — born in Brazil, living in the Netherlands.",
-		description:
-			"I turn infrastructure complexity into competitive advantage. With 15+ years across QA, Pentesting, DevSecOps, and Platform Engineering, I specialise in MLOps at scale — designing secure on-premise GPU clusters, deploying production LLM stacks, and engineering synthetic data pipelines from the ground up. I've grown and sold a technical training company, led enterprise security programmes across Fintech and Retail, and recently secured a full WBSO R&D grant for 3,000h of applied AI research.",
-		cta:
-			"If I can be of service to your project, or if you are building something where you think your services could benefit me, I'd love to connect. (Note: I am not looking for offshore or outsourced engineering agencies.)",
+		title: "Murilo Machado",
+		subtitle: ["AI Engineer", "MLOps Architect", "Security Specialist", "QA Specialist", "DevSecOps", "Platform Engineer"],
+		description: [
+			"15+ years across QA, Pentesting, DevSecOps, and Platform Engineering",
+			"MLOps at scale — secure on-premise GPU clusters, production LLM stacks, synthetic data pipelines",
+			"Grew and sold a technical training company (2,000+ engineers trained)",
+			"Led enterprise security programmes across Fintech and Retail",
+			"Secured a full WBSO R&D grant for 3,000h of applied AI research",
+			"Turning infrastructure complexity into competitive advantage",
+		],
+		note: "If I can be of service to your project, or if you are developing something where you think your services could benefit me, I'd love to connect. (Note: I am not looking for offshore or outsourced engineering agencies.)",
 	},
 
 	articles: {
@@ -37,7 +37,7 @@ const INFO = {
 		{
 			title: "Quail — AI Platform @ spriteCloud",
 			description:
-				"Private LLM platform built for a software testing consultancy. Architected the full stack: NVIDIA DGX Spark setup, multi-model hosting (Ollama, vLLM), Firecrawl, Qdrant, Open WebUI, and Netbird-secured networking. Designed the synthetic data pipeline for training a domain-specific testing model, implemented ISO 27001 controls, ran threat modelling (DFDs, attack trees), and delivered the full CI/CD and secrets pipeline. WBSO-funded R&D project.",
+				"Private LLM platform engineered for a software testing consultancy. Architected the full stack: NVIDIA DGX Spark laboratory to benchmark and optimize frontier models (Llama 3, Mistral) for enterprise-grade deployment. Architected RAG pipelines using Qdrant and vLLM, optimizing for sub-second latency in high-compliance environments. Designed the synthetic data pipeline for training a domain-specific testing model, implemented ISO 27001 controls, ran threat modelling, and delivered the full CI/CD pipeline. WBSO-funded R&D project.",
 			logo: "quail.png",
 			category: "venture",
 			startYear: 2024,
@@ -53,7 +53,6 @@ const INFO = {
 				<React.Fragment>
 					<p>
 						<strong>Security Researcher (Private & spriteCloud)</strong>
-						<br />
 						Extensive experience conducting black-box and gray-box penetration tests for high-compliance clients (Government, Fintech, Retail), following PTES standards. Utilizing modern scanners (Caido, Burp Suite, Naabu, DeepHat AI) and custom Python exploit chains to deeply map attack surfaces and uncover whatever vulnerabilities are present. Notable cases include discovering and remediating critical ATOs and Privilege Escalation vectors in enterprise infrastructure.
 					</p>
 					<p>
@@ -78,6 +77,7 @@ const INFO = {
 				{ name: "Melitta", logo: "melitta.svg" },
 				{ name: "Instituto Oswaldo Cruz", logo: "oswaldo_cruz.png" },
 				{ name: "Folha de S.Paulo", logo: "folha_logo.png" },
+				{ name: "Heineken", logo: "Heineken_logo.svg.png" },
 			],
 			isPublic: false,
 			linkText: null,
@@ -85,13 +85,13 @@ const INFO = {
 		},
 
 		{
-			title: "VilasBoas — IT Academy & Consultancy",
+			title: "VilasBoasIT — Co-founder & Instructor",
 			description:
-				"Founded an IT training operation in Brazil from the ground up, developing 2,000+ engineers across QA, development, and infrastructure — then scaled it into VilasBoas, a technology consultancy serving enterprise clients across retail, fintech, and telco.",
+				"Co-founded an IT training and consultancy operation in São Paulo from the ground up, developing 2,000+ engineers before scaling it to serve enterprise clients across retail, fintech, and telco. Managed strategic QA implementations for companies like Anheuser-Busch InBev, CVC, ViaVarejo, and Magalu, establishing core testing departments and best practices. Designed and delivered comprehensive test automation courses while creating real-world automation frameworks for Web (Selenium/Capybara), API (Rest-Client), and Mobile (Calabash). Additionally, developed the open-source 'pretest' Ruby gem and implemented CI/CD pipelines across GitLabCI, AWS, and Azure.",
 			logo: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f393.png",
 			category: "venture",
-			startYear: 2016,
-			endYear: 2018,
+			startYear: "Oct 2016",
+			endYear: "Apr 2017",
 			clients: [
 				{ name: "AB-InBev", logo: "abinbev.webp" },
 				{ name: "Nextel", logo: "nextel.svg" },
@@ -103,6 +103,17 @@ const INFO = {
 		},
 
 		{
+			title: "@axeforging/playwright-smart-locators",
+			description:
+				"AI-powered self-healing smart web locators for Playwright tests. Automatically intercepts Playwright TimeoutErrors, evaluates the broken locator against the live DOM and cached DOMs, uses a local or remote LLM to deduce the intended element, executes the action, and rewrites the source code to permanently fix the test file.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg",
+			category: "technical",
+			isPublic: true,
+			linkText: "View on NPM",
+			link: "https://www.npmjs.com/package/@axeforging/playwright-smart-locators",
+		},
+
+		{
 			title: "aigate — AI Security Sandbox",
 			description:
 				"OS-level sandbox in Go for AI coding agents (Claude Code, Cursor, Copilot). Kernel-enforced file, process, and network isolation via Linux mount namespaces, POSIX ACLs, and cgroups v2. Ensures GDPR/ISO compliance during AI-assisted development.",
@@ -110,7 +121,7 @@ const INFO = {
 			category: "technical",
 			isPublic: true,
 			linkText: "View on GitHub",
-			link: "https://github.com/murilopmachado",
+			link: "https://github.com/AxeForging/aigate",
 		},
 
 		{
@@ -192,10 +203,10 @@ const INFO = {
 		{
 			title: "ReviewForge — AI Code Reviewer",
 			description:
-				"An AI-powered code reviewer with personality (GitHub Action & CLI). Reviews PRs using OpenAI, Anthropic, or Gemini, posting line-level comments with severity levels, review verdicts, learning reports for developer growth, and customizable reviewer personas.",
+				"AI-powered code reviewer with personality for GitHub Actions and CLI. Reviews PRs using OpenAI, Anthropic, or Google Gemini, posting line-level comments with severity levels and review verdicts. Features built-in reviewer personas (Bob, Maya, Eli), multilingual support, and JSON learning reports to track developer growth. Built in Go for high-performance, containerized reviews.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
 			linkText: "View on GitHub",
-			link: "https://github.com/murilopmachado",
+			link: "https://github.com/AxeForging/reviewforge",
 			category: "technical",
 			isPublic: true,
 		},

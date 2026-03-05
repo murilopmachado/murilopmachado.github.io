@@ -17,23 +17,6 @@ const SEO = [
 	},
 
 	{
-		page: "about",
-		description:
-			"About Murilo Machado — Senior MLOps & Platform Engineer based in the Netherlands, with expertise in AI infrastructure, DevSecOps, Kubernetes, and LLM deployment.",
-		keywords: [
-			"Murilo Machado",
-			"MLOps",
-			"Platform Engineer",
-			"DevSecOps",
-			"Netherlands",
-			"AI Infrastructure",
-			"DGX",
-			"vLLM",
-			"WBSO",
-		],
-	},
-
-	{
 		page: "articles",
 		description:
 			"Articles by Murilo Machado on MLOps, AI infrastructure, DevSecOps, Platform Engineering, and synthetic data generation.",

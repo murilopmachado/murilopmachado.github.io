@@ -14,9 +14,9 @@
 .skill-tag {
 	display: inline-flex;
 	align-items: center;
-	padding: 5px 11px;
+	padding: 8px 14px;
 	border-radius: 5px;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 600;
 	letter-spacing: 0.02em;
 	white-space: nowrap;

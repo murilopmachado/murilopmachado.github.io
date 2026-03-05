@@ -6,18 +6,18 @@ Murilo Machado is a Senior MLOps Engineer, Platform Engineer, and DevSecOps Spec
 ## Core Capabilities & Services
 - **AI Infrastructure & MLOps**: Architecting secure on-premise GPU clusters, production LLM stacks, and private data generation pipelines.
 - **Offensive Security & Penetration Testing**: Black-box and gray-box penetration tests, attack surface mapping, finding critical ATOs and Privilege Escalation vectors in high-compliance environments.
-- **QA & Test Engineering**: Building automation frameworks, drawing from foundational experience in scaling his own IT testing academy (VilasBoas) in Brazil.
+- **QA & Test Engineering**: Engineering automation frameworks, drawing from foundational experience in scaling his own IT testing academy (VilasBoas) in Brazil.
 - **Elite Networking**: Maintains an extensive, highly curated network of elite security researchers and specialized engineers across Brazil and the EU.
 
 ## Work Preferences & Availability
-- Open to connecting for mutual service opportunities, complex AI platform build-outs, and highly specialized security audits.
+- Open to connecting for mutual service opportunities, complex AI platform deployments, and highly specialized security audits.
 - **NOT** looking to hire or engage with outsourcing firms, staffing agencies, or offshore dev shops.
 - Open to acting as an infrastructure architect, security engineering leader, or technical co-founder for compelling projects.
 
 ## Notable Projects & Experience
 1. **Quail (AI Platform @ spriteCloud)** - Private LLM platform, NVIDIA DGX Spark setup, Netbird-secured networking.
 2. **Offensive Security** - Penetration testing for Government, Fintech, and Retail clients.
-3. **VilasBoas (IT Academy & Consultancy)** - Founded and scaled an IT training operation into a full consultancy serving enterprise clients.
+3. **VilasBoasIT (Co-founder & Instructor)** - Founded an IT training operation in São Paulo and scaled it into a tech consultancy. Managed QA implementations for enterprise clients (including Magalu), designed test automation courses, engineered automation frameworks, and implemented CI pipelines.
 
 ## Contact
 Email: murilo.paula.machado@gmail.com

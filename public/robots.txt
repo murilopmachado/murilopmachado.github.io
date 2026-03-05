@@ -20,3 +20,5 @@ Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
+
+Sitemap: https://murilopmachado.github.io/sitemap.xml

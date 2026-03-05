@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
 import Article from "../components/articles/article";
+import TypewriterText from "../components/common/typewriterText";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -31,18 +30,9 @@ const Articles = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container">
-						<div className="articles-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="articles-main-container">
-						<div className="title articles-title">
-							{INFO.articles.title}
-						</div>
+						<TypewriterText text={INFO.articles.title} className="title articles-title" as="div" />
 
 						<div className="subtitle articles-subtitle">
 							{INFO.articles.description}
