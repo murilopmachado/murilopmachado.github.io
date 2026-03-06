@@ -59,9 +59,9 @@
 }
 
 .badge-private {
-	background: rgba(234, 78, 0, 0.1);
-	border: 1px solid rgba(234, 78, 0, 0.4);
-	color: #ea7a40;
+	background: rgba(186, 151, 49, 0.1);
+	border: 1px solid rgba(186, 151, 49, 0.4);
+	color: #d4af57;
 }
 
 .project-logo {

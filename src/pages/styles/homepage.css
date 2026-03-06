@@ -45,14 +45,14 @@
 	font-size: 16px;
 	line-height: 1.6;
 	color: var(--secondary-color);
-	border-left: 2px solid rgba(234, 78, 0, 0.4);
+	border-left: 2px solid rgba(186, 151, 49, 0.4);
 	padding: 4px 0 4px 14px;
 }
 
 .homepage-highlight {
 	display: inline-block;
-	background: rgba(234, 78, 0, 0.1);
-	border-left: 3px solid rgba(234, 78, 0, 0.5);
+	background: rgba(186, 151, 49, 0.1);
+	border-left: 3px solid rgba(186, 151, 49, 0.5);
 	padding: 15px 20px;
 	border-radius: 0 8px 8px 0;
 	margin: 20px 0;

@@ -32,8 +32,8 @@
 
 .contact-highlight {
 	display: inline-block;
-	background: rgba(234, 78, 0, 0.1);
-	border-left: 3px solid rgba(234, 78, 0, 0.5);
+	background: rgba(186, 151, 49, 0.1);
+	border-left: 3px solid rgba(186, 151, 49, 0.5);
 	padding: 15px 20px;
 	border-radius: 0 8px 8px 0;
 	margin: 15px 0;
@@ -66,10 +66,10 @@
 }
 
 .premium-contact-btn:hover {
-	background: rgba(234, 78, 0, 0.15);
-	border-color: rgba(234, 78, 0, 0.3);
+	background: rgba(186, 151, 49, 0.15);
+	border-color: rgba(186, 151, 49, 0.3);
 	transform: translateY(-3px);
-	box-shadow: 0 10px 25px rgba(234, 78, 0, 0.1);
+	box-shadow: 0 10px 25px rgba(186, 151, 49, 0.1);
 	color: var(--primary-color);
 }
 
@@ -322,7 +322,7 @@
 
 .collab-card:hover {
 	background: rgba(255, 255, 255, 0.06);
-	border-color: rgba(234, 78, 0, 0.2);
+	border-color: rgba(186, 151, 49, 0.2);
 	transform: translateY(-5px);
 }
 
@@ -330,20 +330,20 @@
 	width: 62px;
 	height: 62px;
 	border-radius: 12px;
-	background: rgba(234, 78, 0, 0.08);
+	background: rgba(186, 151, 49, 0.08);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 5px;
 	overflow: visible;
 	flex-shrink: 0;
-	border: 1px solid rgba(234, 78, 0, 0.15);
+	border: 1px solid rgba(186, 151, 49, 0.15);
 }
 
 .collab-fa-icon {
 	font-size: 26px;
-	color: #ea4e00;
-	filter: drop-shadow(0 0 8px rgba(234, 78, 0, 0.4));
+	color: #BA9731;
+	filter: drop-shadow(0 0 8px rgba(186, 151, 49, 0.4));
 }
 
 /* Animations */
@@ -378,7 +378,7 @@
 	50% {
 		transform: scale(1.15);
 		opacity: 1;
-		filter: drop-shadow(0 0 12px rgba(234, 78, 0, 0.6));
+		filter: drop-shadow(0 0 12px rgba(186, 151, 49, 0.6));
 	}
 }
 
@@ -391,7 +391,7 @@
 
 	50% {
 		transform: translateY(-5px);
-		filter: drop-shadow(0 0 15px rgba(234, 78, 0, 0.8));
+		filter: drop-shadow(0 0 15px rgba(186, 151, 49, 0.8));
 	}
 }
 

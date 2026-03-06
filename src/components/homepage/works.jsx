@@ -98,7 +98,7 @@ const SKILLS = [
 ];
 
 const CATEGORY_COLORS = {
-	ai: { bg: "rgba(234, 78, 0, 0.12)", border: "rgba(234, 78, 0, 0.5)", text: "#ea7a40" },
+	ai: { bg: "rgba(186, 151, 49, 0.12)", border: "rgba(186, 151, 49, 0.5)", text: "#d4af57" },
 	security: { bg: "rgba(239, 68, 68, 0.1)", border: "rgba(239, 68, 68, 0.4)", text: "#f87171" },
 	platform: { bg: "rgba(99, 102, 241, 0.1)", border: "rgba(99, 102, 241, 0.4)", text: "#a78bfa" },
 	cicd: { bg: "rgba(16, 185, 129, 0.1)", border: "rgba(16, 185, 129, 0.4)", text: "#34d399" },
