@@ -141,9 +141,9 @@ const INFO = {
 				"CLI scaffolding tool for secure repository cloning and dynamic template value replacement, with customizable delimiters, size-based parsing limits, and built-in transformation functions.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
 			category: "technical",
-			isPublic: true,
-			linkText: "View on GitHub",
-			link: "https://github.com/murilopmachado",
+			isPublic: false,
+			linkText: null,
+			link: null,
 		},
 
 		{
@@ -163,9 +163,9 @@ const INFO = {
 				"Cross-format parser (JSON, YAML, Markdown) leveraging gojq for advanced querying, plus a cross-platform (Linux/macOS/Windows) clipboard CLI utility for terminal piping integrated with X11/Wayland.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png",
 			category: "technical",
-			isPublic: true,
-			linkText: "View on GitHub",
-			link: "https://github.com/murilopmachado",
+			isPublic: false,
+			linkText: null,
+			link: null,
 		},
 
 		{
