@@ -58,10 +58,12 @@ Primary org: **[@AxeForging](https://github.com/AxeForging)**
 
 ## Elsewhere
 
-- **Portfolio:** [tools.axeforge.io](https://tools.axeforge.io) — infrastructure tooling for engineers, EN/ES/PT/DE/NL
+- **Portfolio:** [murilomachado.pages.dev](https://murilomachado.pages.dev)
+- **OSS tools platform:** [tools.axeforge.io](https://tools.axeforge.io) — infrastructure tooling for engineers, EN/ES/PT/DE/NL
 - [LinkedIn](https://www.linkedin.com/in/murilomachado/)
 - [@AxeForging](https://github.com/AxeForging) — projects org
 - Amsterdam, NL
+
 
 ---
 
