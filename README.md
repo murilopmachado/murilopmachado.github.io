@@ -1,209 +1,68 @@
-# Reactfolio V1.2 👩🏽‍🚀
+# Murilo Machado
 
-Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
+**AI Platform & MLOps · DevSecOps · QA · Former Engineering Manager (50+ org) · Co-Founder**
 
-<center>
-<img src="https://cdn.tharindu.dev/reactfolio.jpg" alt="Reactfolio" />
-</center>
+Amsterdam, NL · [LinkedIn](https://www.linkedin.com/in/murilomachado/) · [@AxeForging](https://github.com/AxeForging) · [ReplayRaccoon on Chrome Web Store](https://chromewebstore.google.com/detail/replayraccoon/ddggbnmloohiclklghelffllhielfogo)
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
+---
 
--   [Features](#-features)
--   [Getting started](#-getting-started)
--   [Installation and Setup Instructions](#-installation-and-setup-instructions)
--   [Folder structure](#-folder-structure)
--   [Configurations](#-configurations)
--   [Google Analytics](#-google-analytics)
--   [Building the React App](#-building-the-react-app)
--   [FAQ](#-faq)
--   [Contribution](#-contribution)
+## About
 
-## 📙 Features
+Technology leader with 15+ years in tech (since 2010) spanning founder, Engineering Manager, and hands-on IC roles. Co-founded Vilas Boas IT (education-to-consultancy, 2000+ students trained across test automation, security, and DevSecOps). Scaled a 50+ person engineering organization at spriteCloud serving Heineken, Ahold Delhaize, and DEPT. Secured a €150K+ WBSO R&D grant from the Netherlands Enterprise Agency in 2024 for applied AI research.
 
--   📖 Multi-Page Layout
-    -   Home
-    -   About
-    -   Projects
-    -   Articles
-    -   Contact
--   📱 Fully Responsive
--   🛠 Easy configurations
+Currently deploying production RAG on-prem (Qdrant + Ollama and vLLM, 100% data sovereignty), building zero-trust hybrid GPU infrastructure (DGX + Hetzner + NetBird), and maintaining an open-source toolchain for AI engineers under [@AxeForging](https://github.com/AxeForging).
 
-## 📚 Getting started
+## Open-source work
 
-Clone down this repository. You will need `NodeJS` and `git` installed globally on your machine.
+Primary org: **[@AxeForging](https://github.com/AxeForging)**
 
-## 🛠 Installation and Setup Instructions
+### AI Infrastructure & MLOps
 
-1. Installation: `npm install`
+- **[aigate](https://github.com/AxeForging/aigate)** — OS-level sandbox for AI coding agents. Kernel-enforced file, command, and network isolation. Go.
+- **Topic-Lode** — Synthetic data pipeline with LLM-as-Judge quality filtering (~80% manual curation reduction for fine-tuning datasets). _Publishing this weekend._
+- **PipeAI** — Terminal-native LLM pipe processor for security data analysis workflows. Go. _Publishing soon._
 
-2. Run the project: `npm start`
+### Release & Review Automation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+- **[releaseforge](https://github.com/AxeForging/releaseforge)** — AI-powered release notes generator with conventional-commit analysis and semver bump suggestions. Go.
+- **[reviewforge](https://github.com/AxeForging/reviewforge)** — Autonomous PR reviewer enforcing infrastructure coding standards and DevSecOps best practices via LLM patterns. Go.
 
-## 📁 Folder structure
+### Developer Tooling & Testing
 
--   `/public`: publicly accessible contents (ex: images, media).
--   `/src`: all the components used in this project.
-    -   `/src/components/`: each reusable components of each pages.
-    -   `/src/data`: configurations of the web app.
-    -   `/src/pages`: pages that include in the web app.
+- **[playwright-smart-locators](https://github.com/AxeForging/playwright-smart-locators)** — AI-powered self-healing locators for Playwright tests. TypeScript.
+- **[yankrun](https://github.com/AxeForging/yankrun)** — Clone repos and replace tokens safely with size limits, custom delimiters, and JSON/YAML inputs. Go.
+- **[structlint](https://github.com/AxeForging/structlint)** — CLI tool for validating and enforcing directory structure and file naming patterns. Go.
+- **pretest** — Ruby gem published during Vilas Boas IT era (2016–2018), lowering the barrier for newcomers to test automation.
 
-## ⚙️ Configurations
+### Local-first browser tooling
 
-Since this is a public and open source project, you can make any changes to it. If you are a ReactJS developer you can do it easily. But if you are a beginner, I have extracted the configurable data into a single directory, so you can edit the files in that directory to configure the entire web application.
+- **[ReplayRaccoon](https://chromewebstore.google.com/detail/replayraccoon/ddggbnmloohiclklghelffllhielfogo)** — Local-first browser session recorder: full DOM + network (HAR) + console capture into a self-contained `.raccoon` archive. Zero data leaves the browser by default (IndexedDB); optional encrypted sync to customer-owned GCS/S3/Azure. GDPR/HIPAA compliant by design. Co-built with my brother; passed Google Web Store formal review (2026).
 
-Directory: `/src/data/`
+## Stack
 
--   `user.js`
+- **AI Platform & MLOps** — RAG · LLM Orchestration · Qdrant · vLLM · Ollama · MLflow · Airflow · Anthropic Claude API · OpenAI API
+- **Languages** — Python · Go · TypeScript · JavaScript · Ruby · Bash · Java · C# · Scala · PL/SQL
+- **Cloud & Infra** — Kubernetes · Docker · Terraform · AWS · Azure · GCP · Linux Namespaces · DGX · Hetzner
+- **DevSecOps** — CEH · EHPX · Semgrep · CodeQL · GHAS · SonarQube · Snyk · Checkmarx · Burp Suite · STRIDE · DSMM
+- **Policy-as-Code** — Checkov · tfsec · OPA · Trivy · Clair
+- **Zero-Trust** — NetBird · WireGuard · Device Posture
+- **Test Automation** — Playwright · Appium · Cypress · Cucumber · Capybara · k6 · Gatling · JMeter
+- **Observability** — Prometheus · Grafana · Splunk SIEM · ElasticStack · New Relic
 
-    From this you can change the content of each page of the web application.
+## Certifications
 
--   `articles.js`
+- **CEH** — Certified Ethical Hacker (EC-Council)
+- **EHPX** — Ethical Hacking Post Exploitation (GoHacking)
+- **ITIL v3 Foundations** (AXELOS)
+- **BPMN** Business Process Analyst (OMG) · **BABOK 2.0** (IIBA)
 
-    From this you can add your articles to the web application.
+## Elsewhere
 
-    Instructions:
+- **Portfolio:** [tools.axeforge.io](https://tools.axeforge.io) — infrastructure tooling for engineers, EN/ES/PT/DE/NL
+- [LinkedIn](https://www.linkedin.com/in/murilomachado/)
+- [@AxeForging](https://github.com/AxeForging) — projects org
+- Amsterdam, NL
 
-    -   Add new article
+---
 
-        1. Create a new function starts with `article_`. For example you can add new function named `article_3`.
-
-        2. Then add the data accordingly.
-
-            - Add `<React.Fragment>` tag and it's closing tags in body.
-            - In React there has no keyword `class`, so you should use `className` to define html classes.
-
-            ```js
-            function article_3() {
-            	return {
-            		date: "7 May 2023",
-            		title: "The Benefits of Cloud Computing",
-            		description: "Why businesses are turning to the cloud.",
-            		style: `
-            				.random-image {
-            					align-self: center;
-            					outline: 2px solid red;
-            				}
-            				`,
-            		body: (
-            			<React.Fragment>
-            				<div className="article-content">
-            					<div className="paragraph">
-            						Content of article 1
-            					</div>
-            					<img
-            						src="https://picsum.photos/200/300"
-            						alt="random"
-            						className="random-image"
-            					/>
-            				</div>
-            			</React.Fragment>
-            		),
-            	};
-            }
-            ```
-
-        3. In the last lines you will see an array to which you need to add your new `articles` function.
-
-            ```js
-            const myArticles = [article_1, article_2, article_3];
-            ```
-
--   `seo.js`
-
-    The SEO.js file is a module that contains an array of objects, with each object representing metadata for a specific page of a React website. The purpose of this file is to centralize and manage the SEO (Search Engine Optimization) information for different pages.
-
-    Each object in the SEO array has the following properties:
-
-    `page`: Represents the page name or identifier. It helps in mapping the SEO data to the appropriate page.
-
-    `title`: Specifies the title of the page. This title is typically displayed in the browser's title bar and is an important element for search engines.
-
-    `description`: Provides a concise and informative description of the page content. This description is often displayed in search engine results and can greatly influence click-through rates.
-    keywords: Contains an array of keywords relevant to the page's content. Keywords can help search engines understand the topics covered on the page and can impact its visibility in search results.
-    By storing the SEO information in the SEO.js file, you can easily manage and update the metadata for different pages of your React website. This approach allows you to keep the SEO data separate from the components and reuse it across the application, ensuring consistent and optimized metadata for each page.
-
-    Example:
-
-    ```js
-    const SEO = [
-    	{
-    		page: "home",
-    		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-    	},
-    ];
-    ```
-
--   `styles.css`
-
-    From this you can change the font colors and font families of the web application.
-
-    ```css
-    :root {
-    	/* ------- colors ------- */
-    	--primary-color: #27272a;
-    	--secondary-color: #65656d;
-    	--tertiary-color: #acacb4;
-    	--quaternary-color: #e4e4e7;
-    	--link-color: #14b8a6;
-    	/* ---------------------- */
-
-    	/* ------- fonts ------- */
-    	--primary-font: "Heebo", sans-serif;
-    	--secondary-font: "Roboto", sans-serif;
-    	/* --------------------- */
-    }
-    ```
-
-## 📈 Google Analytics
-
-Add your Google Analytics 4 MEASUREMENT ID to `/src/data/tracking.js`.
-
-How to find the Google Analytics 4 MEASUREMENT ID ?
-
-[https://support.google.com/analytics/answer/9539598?hl=en](https://support.google.com/analytics/answer/9539598?hl=en)
-
-## 🚀 Building the React App
-
-To build the React app, you can use the `npm run build` command. This will create a production-ready build of your app in the `build/` directory.
-
-Here are the steps to follow:
-
-1. Open a terminal window and navigate to the root directory of your React app.
-2. Run the `npm run build` command to create a production build of your app. This will generate a static bundle of your app in the `build/` directory.
-3. Copy the contents of the `build/` directory to your server's public directory. You can do this using an FTP client or by running a command like `scp` to transfer the files to your server. Make sure to replace `example.com` and `/var/www/html` with your server's domain name and public directory, respectively:
-
-    ```bash
-    scp -r build/* user@example.com:/var/www/html
-    ```
-
-4. Your portfolio app should now be accessible from your server's domain name. You can verify this by opening a web browser and navigating to http://example.com (replace example.com with your server's domain name).
-
-That's it! Your React portfolio app should now be up and running on your server. Note that you may need to configure your server's web server (e.g., Apache or Nginx) to serve the index.html file in the build/ directory as the default page for your domain.
-
-## 🤔 FAQ
-
-**Q1. Subpages can only be accessed through links on the homepage or navigation bar, but those pages are not accessible through direct links.**
-
-If you are using Apache as your web server, you can insert this into your .htaccess file:
-
-```c
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule . /index.html [L]
-</IfModule>
-```
-
-## 🌱 Contribution
-
-If you have any suggestions on what to improve in Reactfolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
+_Open to remote-first Staff/Principal IC and leadership roles in AI Platform, MLOps, DevSecOps, and Platform Engineering.
